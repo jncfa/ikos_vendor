@@ -11,7 +11,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 ament_vendor(ikos_vendor
-  SATISFIED ${spdlog_FOUND}
+  SATISFIED ${ikos_FOUND}
   VCS_URL https://github.com/NASA-SW-VnV/ikos.git
   VCS_VERSION v3.3
   CMAKE_ARGS
